@@ -255,3 +255,94 @@ body {
   width: 100%;
   border-radius: 20px;
 }
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url(../img/banner/milky-way-g0d02787c8_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+}
+
+#banner h4 {
+  color: #fffefe;
+  font-size: 20px;
+}
+
+#banner h2 {
+  color: #ffffff;
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+#banner span {
+  color: hsl(0, 100%, 71%);
+  font-size: 35px;
+}
+
+#banner button:hover {
+  background-color: #018286;
+  color: #ffffff;
+}
+
+#sm-banner .banner-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-image: url(../img/banner/pexels-photo-7993575.jpeg);
+  background-size: cover;
+  background-position: center;
+  min-width: 550px;
+  height: 50vh;
+  padding: 30px;
+}
+
+#sm-banner .banner-box2 {
+  background-image: url(../img/banner/bg-heroFull-multiple_phones_aerial.webp);
+}
+
+#sm-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#sm-banner h2 {
+  color: white;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#sm-banner h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#sm-banner {
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
+#sm-banner .banner-box button {
+  color: #1a1a1a;
+}
+
+#sm-banner .banner-box:hover button {
+  background-color: #018286;
+  border: 1px solid #06adb3;
+}
+
+/* #sm-banner .banner-box2 h2 {
+  color: #5c5fe4;
+}
+#sm-banner .banner-box2 h4 {
+  color: #5c5fe4; */
+/* } */
