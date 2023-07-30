@@ -340,6 +340,245 @@ body {
   border: 1px solid #06adb3;
 }
 
+#banner3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+
+#banner3 .banner-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-image: url(../img/reuse-old-mobile-phones-1522951424-lb.jpg);
+  background-size: cover;
+  background-position: center;
+  min-width: 30%;
+  height: 30vh;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#banner3 .banner-box2 {
+  background-image: url(../img/banner/pexels-photo-8911636.jpeg);
+}
+
+#banner3 .banner-box3 {
+  background-image: url(../img/aa-Cover-0ka5la6aaburq6um01vgq508j0-20170112212454.Medi.jpeg);
+}
+
+#banner3 h2 {
+  color: white;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+#banner3 h3 {
+  color: #ec544e;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+#newsletter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #020147;
+}
+
+#newsletter h4 {
+  font-weight: 700;
+  font-size: 22px;
+  color: #e8f6ea;
+}
+
+#newsletter p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #d3d4b9;
+}
+
+#newsletter .form {
+  display: flex;
+  width: 40%;
+}
+
+#newsletter input {
+  height: 3.125rem;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#newsletter button {
+  background-color: #018286;
+  color: #fff;
+  white-space: nowrap;
+  height: 3.125rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+footer .logo {
+  margin-bottom: 30px;
+}
+
+footer h4 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+footer .follow {
+  margin-top: 20px;
+}
+
+footer .follow i {
+  color: #465b52;
+  padding-right: 4px;
+  cursor: pointer;
+}
+
+footer .follow i:hover,
+footer a:hover {
+  color: #018286;
+}
+
+.copyright p {
+  font-size: 15px;
+  color: #606063;
+  text-align: center;
+  padding: 10px;
+  margin-top: 0;
+}
+
+/* media query تغییرات  */
+
+@media (max-width: 799px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: #e3e6f3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.3s;
+  }
+
+  #navbar.active {
+    right: 0px;
+  }
+
+  #navbar li {
+    margin-bottom: 25px;
+  }
+
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
+
+  #mobile i,
+  a {
+    color: #1a1a1a;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  #close {
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 24px;
+  }
+
+  #lg-bag {
+    display: none;
+  }
+
+  #hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #features {
+    justify-content: center;
+  }
+
+  #features .feature-box {
+    margin: 15px 15px;
+  }
+
+  #product1 .pro-container {
+    justify-content: center;
+  }
+
+  #product1 .pro {
+    margin: 15px;
+  }
+
+  #banner {
+    height: 20vh;
+  }
+
+  #sm-banner .banner-box {
+    min-width: 100%;
+    height: 30vh;
+  }
+
+  #banner3 {
+    padding: 0 40px;
+  }
+
+  #banner3 .banner-box {
+    width: 26%;
+  }
+
+  #newsletter .form {
+    width: 60%;
+  }
+}
+
+
 /* #sm-banner .banner-box2 h2 {
   color: #5c5fe4;
 }
